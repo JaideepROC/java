@@ -1,19 +1,15 @@
+int mijngetal;
+
 void setup(){
- getalgem(); 
-  getalgem(); 
-   getalgem(); 
- 
+ println(mijfuntie(10,20));
+ mijngetal = mijfuntie(15,45);
+ println(mijngetal)
 }
 void draw(){
   
 }
 
-void  getalgem(){ 
-int getal1 = 15;
- int getal2 = 5;
-int antwoord;
-antwoord = (getal1 + getal2)/2;
-println(antwoord);
+int mijfuntie(int getal1, int getal2){
 }
 
   
